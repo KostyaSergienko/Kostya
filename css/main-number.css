@@ -129,10 +129,19 @@ body {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.return-arrow:hover,
+/* .return-arrow:hover,
 .return:hover,
 .return-arrow:focus,
 .return:focus{
     fill: #F3C653;
     color: #F3C653;
+} */
+
+
+.return:hover{
+    color: #F3C653;
+}
+
+.return:hover > .return-arrow{
+    fill: #F3C653;
 }
