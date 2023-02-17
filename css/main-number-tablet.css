@@ -28,11 +28,52 @@
         max-width: 400px;
     }
 
-   
     .control{
         display: flex;
         flex-direction: column;
         align-items: flex-end;
         margin-right: 24px;
     }
-}
+
+    /*========== модалка ===============*/
+
+    .modality-booking{
+        width: 712px;
+    }
+
+    .booking-title{
+        margin-bottom: 0px;
+    }
+
+    .modal-booking{
+        padding-top: 36px;
+        padding-right: 45px;
+        padding-left: 45px;
+        padding-bottom: 60px;
+    }
+
+    .box-booking{
+        flex-direction: row;
+        gap: 16px;
+    }
+
+    .modal-booking-input{
+        width: 288px;
+    }
+
+    .modal-booking-field{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .booking-btn{
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-top: 20px;
+    }
+    
+    .btn-text{
+        font-size:23px;
+        padding: 18px 123px;
+    }
+}   

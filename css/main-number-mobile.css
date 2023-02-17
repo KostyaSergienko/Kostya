@@ -84,4 +84,23 @@
         font-size: 13px;
         line-height: 1.1;
     }
+    
+    /* =============модалка=========== */
+
+    .modality-booking{
+        width: 320px;
+    }
+
+    .booking-title{
+        font-size: 20px;
+    }
+
+    .modal-booking-input{
+        font-size: 15px;
+    }
+
+    .btn-text{
+        font-size: 13px;
+    }
+   
 }

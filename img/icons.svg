@@ -6,5 +6,15 @@
 <symbol id="icon-x" viewBox="0 0 32 32">
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M27.429 3.428l-24 24M3.429 3.428l24 24"></path>
 </symbol>
+<symbol id="icon-close-1" viewBox="0 0 32 32">
+<path d="M32 3.224l-3.224-3.224-12.776 12.776-12.776-12.776-3.224 3.224 12.776 12.776-12.776 12.776 3.224 3.224 12.776-12.776 12.776 12.776 3.224-3.224-12.776-12.776 12.776-12.776z"></path>
+</symbol>
+<symbol id="icon-222" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M27.428 3.428l-24 24"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M3.428 3.428l24 24"></path>
+</symbol>
+<symbol id="icon-ep_arrow" viewBox="0 0 32 32">
+<path d="M3.272 10.587c0.362-0.361 0.861-0.585 1.413-0.585s1.051 0.223 1.413 0.585l9.901 9.9 9.9-9.9c0.356-0.333 0.836-0.537 1.363-0.537 1.105 0 2 0.895 2 2 0 0.527-0.204 1.007-0.538 1.365l0.001-0.001-11.313 11.315c-0.362 0.361-0.861 0.585-1.413 0.585s-1.052-0.224-1.413-0.585l-11.315-11.313c-0.362-0.362-0.586-0.862-0.586-1.414s0.224-1.052 0.586-1.414v0z"></path>
+</symbol>
 </defs>
 </svg>
