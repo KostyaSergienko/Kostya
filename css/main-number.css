@@ -32,7 +32,7 @@ img {
 body {
     font-family: 'Montserrat', sans-serif;
     color:#7A7A7A;
-    background-color: #FFFDEE;
+    /* background-color: #FFFDEE; */
     font-weight: 700;
     font-size: 16px;
     line-height: 1.25;
@@ -60,6 +60,7 @@ body {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
+    background-color: #FFFDEE;
 }
 
 .subtitle {
