@@ -37,27 +37,36 @@
 
     /*========== модалка ===============*/
 
-    .modality-booking{
+    .modality-price{
         width: 712px;
     }
 
-    .booking-title{
-        margin-bottom: 0px;
+    .price-title{
+        margin-bottom: 40px;
+        font-size: 32px;
+        line-height: 37px;
     }
 
-    .modal-booking{
-        padding-top: 36px;
+    .price-subject{
+        padding-left: 40px;
+    }
+
+    .price-subtitle{
+        padding-left: 40px;
+    }
+
+    .modal-price{
         padding-right: 45px;
         padding-left: 45px;
         padding-bottom: 60px;
     }
 
-    .box-booking{
+    .box-price{
         flex-direction: row;
         gap: 16px;
     }
 
-    .modal-booking-input{
+    .modal-price-input{
         width: 288px;
     }
 
@@ -66,13 +75,27 @@
         justify-content: flex-end;
     }
 
-    .booking-btn{
+    .input-price-wrap {
+        position: relative;
+            
+    }
+    
+    .input-price-icon {
+        display: block;
+        fill: #C79002;
+        position: absolute;
+        right: 20px;
+        top: 20%;
+        transform: translate(-50%);
+    }
+
+    .price-btn{
         padding-top: 0px;
         padding-bottom: 0px;
         margin-top: 20px;
     }
     
-    .btn-text{
+    .btn-price-text{
         font-size:23px;
         padding: 18px 123px;
     }

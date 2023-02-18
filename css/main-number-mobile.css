@@ -87,19 +87,32 @@
     
     /* =============модалка=========== */
 
-    .modality-booking{
+    .modality-price{
         width: 320px;
     }
 
-    .booking-title{
+    .price-title{
         font-size: 20px;
     }
 
-    .modal-booking-input{
+    .price-subject {
+        font-size: 15px;
+    }
+    
+    .price-subtitle {
         font-size: 15px;
     }
 
-    .btn-text{
+    .modal-price-input{
+        font-size: 15px;
+        padding: 10px 0 10px 8px;
+    }
+
+    .price-text{
+        font-size: 15px;
+    }
+
+    .btn-price-text{
         font-size: 13px;
     }
    

@@ -93,7 +93,7 @@
         <section class="box">
             <div class="container">
                 <div class="control">
-                    <button class="btn" type="button" booking-modal-open>ОФОРМИТИ БРОНЮВАННЯ</button>
+                    <button class="btn" type="button" price-modal-open>ОФОРМИТИ БРОНЮВАННЯ</button>
                         <a class="return link" href="#">Повернутися до перегляду номерів
                             <svg class="return-arrow" width="24" height="24">
                                 <use href="./img/icons.svg#icon-cil_arrow"></use>
@@ -200,84 +200,49 @@
              
             
         </div> -->
-        <div class="backdrop-booking is-booking-hidden" booking-modal>
-            <div class="modality-booking">
-                <button type="button" class="modality-booking-close" booking-modal-close>
-                    <svg class="modality-booking-icon" width="24" height="24">
+        <div class="backdrop-price is-price-hidden" price-modal>
+            <div class="modality-price">
+                <button type="button" class="modality-price-close" price-modal-close>
+                    <svg class="modality-price-icon" width="24" height="24">
                         <use href="./img/icons.svg#icon-222"></use>
                     </svg>
                 </button>
-                <p class="booking-title">ЦІНИ НА НОМЕР</p>
-                <p>Двомісний люкс</p>
+                <p class="price-title">ЦІНИ НА НОМЕР</p>
+                <p class="price-subject">Двомісний люкс</p>
+                <p class="price-subtitle">Категорія номеру</p>
         
-                <form class="modal-booking">
-                    <div class="box-booking">
-                        <div class="modal-booking-field">
-                            <label for="user-name" class="input-booking-text"></label>
-                            <div class="input-booking-wrap">
-                                <p class="booking-text">На кого забронювати столик?</p>
-                                <input type="text" name="user-name" id="user-name" class="modal-booking-input"
-                                    placeholder="Ваше ім’я" required>
+                <form class="modal-price">
+                    <div class="box-price">
+                        
+                        <div class="modal-price-field">
+                            
+                            <label for="user-name" class="input-price-text"></label>
+                            
+                            <div class="input-price-wrap">
+                            
+                                <input type="text" name="user-name" id="user-name" class="modal-price-input"
+                                    placeholder="1" required>
+                                    <svg class="input-price-icon" width="24" height="24">
+                                        <use href="./img/icons.svg#icon-ep_arrow"></use>
+                                    </svg>
         
-                                <p class="booking-text">На кого забронювати столик?</p>
+                                <p class="price-text">Кількість ночей</p>
                             </div>
         
                         </div>
-                        <div class="modal-booking-field">
-                            <label for="user-email" class="input-booking-text"></label>
-                            <div class="input-booking-wrap">
-                                <input type="email" name="user-data" id="user-data" class="modal-booking-input" placeholder="Сьогодні" required>
-                                <svg class="input-booking-icon" width="24" height="24">
-                                    <use href="./img/icons.svg#icon-ep_arrow"></use>
-                                </svg>
-                                <p class="booking-text">Дата виїзду</p>
+                        <div class="modal-price-field">
+                            <label for="user-email" class="input-price-text"></label>
+                            <div class="input-price-wrap">
+                                <input type="email" name="user-data" id="user-data" class="modal-price-input" placeholder="1000" required>
+                        
+                                <p class="price-text">грн</p>
                             </div>
                         
                         </div>
                     </div>
-        
-                    <!-- <div class="modal-booking-field">
-                        <label for="user-email" class="input-booking-text"></label>
-                        <div class="input-booking-wrap">
-                            <input type="email" name="user-room" id="user-room" class="modal-booking-input"
-                                placeholder="Двомісний люкс" required>
-                            <svg class="input-booking-icon" width="24" height="24">
-                                <use href="./img/icons.svg#icon-ep_arrow"></use>
-                            </svg>
-                            <p class="booking-text">Категорія номеру</p>
-                        </div>
-                    </div> -->
-        
-                
-        
-                    <!-- <div class="box-booking">
-                        <div class="modal-booking-field">
-                            <label for="user-email" class="input-booking-text"></label>
-                            <div class="input-booking-wrap">
-                                <input type="email" name="user-data" id="user-data" class="modal-booking-input"
-                                    placeholder="Сьогодні" required>
-                                <svg class="input-booking-icon" width="24" height="24">
-                                    <use href="./img/icons.svg#icon-ep_arrow"></use>
-                                </svg>
-                                <p class="booking-text">Дата заїзду</p>
-                            </div>
-        
-                        </div>
-                        <div class="modal-booking-field">
-                            <label for="user-email" class="input-booking-text"></label>
-                            <div class="input-booking-wrap">
-                                <input type="email" name="user-data" id="user-data" class="modal-booking-input"
-                                    placeholder="Сьогодні" required>
-                                <svg class="input-booking-icon" width="24" height="24">
-                                    <use href="./img/icons.svg#icon-ep_arrow"></use>
-                                </svg>
-                                <p class="booking-text">Дата виїзду</p>
-                            </div>
-        
-                        </div>
-                    </div> -->
-                    <div class="booking-btn">
-                        <button class="btn-text" type="button">ОФОРМИТИ БРОНЮВАННЯ</button>
+
+                    <div class="price-btn">
+                        <button class="btn-price-text" type="button">ОФОРМИТИ БРОНЮВАННЯ</button>
         
                     </div>
                 </form>
