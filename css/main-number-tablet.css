@@ -70,6 +70,10 @@
         width: 288px;
     }
 
+    .modal-price-desc{
+        width: 288px;
+    }
+
     .modal-booking-field{
         display: flex;
         justify-content: flex-end;

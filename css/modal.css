@@ -105,6 +105,29 @@
     padding: 15px 0 15px 13px;
 }
 
+.modal-price-desc {
+    width: 100%;
+    border: 1px solid #C79002;
+    border-radius: 2px;
+    margin-bottom: 6px;
+    background-color: transparent;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.05em;
+    color: #808080;
+    padding: 15px 0 15px 13px;
+    
+    appearance: none;
+    overflow: hidden;
+    background: url('../svg/ep_arrow.svg') no-repeat right;
+    background-position-x: calc(100% - 15px);
+    
+}
+
+
 .modal-price-input:focus {
     border-color: #C79002;
     outline: none;

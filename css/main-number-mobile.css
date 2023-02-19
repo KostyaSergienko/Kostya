@@ -108,6 +108,11 @@
         padding: 10px 0 10px 8px;
     }
 
+    .modal-price-desc{
+        font-size: 15px;
+        padding: 10px 0 10px 8px;
+    }
+
     .price-text{
         font-size: 15px;
     }
