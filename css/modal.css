@@ -127,6 +127,16 @@
     
 }
 
+.input-price-text{
+    margin-bottom: 20px;
+        margin-left: 12px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.02em;
+        color: #C79002;
+}
 
 .modal-price-input:focus {
     border-color: #C79002;
